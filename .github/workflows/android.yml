@@ -32,6 +32,6 @@ jobs:
         uses: actions/upload-artifact@v3.1.1
         with:
           name: androidcicd.apk
-          path: app/build/outputs/apk/app
+          path: app/build/outputs/apk/debug
 
 
